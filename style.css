@@ -1,0 +1,275 @@
+    #banner {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+        width: 728px;
+        height: 90px;
+        position: absolute;
+        cursor: pointer;
+        overflow: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        margin: auto;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border: 1px solid #000;
+        opacity: 1;
+        background-color: #fff;
+    }
+    
+    .copy {
+        font-size: 28px;
+        /*font-weight:bold;*/
+        letter-spacing: 0px;
+        font-weight: 500;
+    }
+    
+    #banner img,
+    #banner div {
+        border: none;
+        position: absolute;
+        opacity: 1;
+        font-family: HelveticaLight, Helvetica, Arial, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Segoe UI, InfoText, Calibiri, Arial Unicode MS;
+        font-weight: normal;
+        /*font-family: "Arial", sans-serif;
+        font-weight: bold;*/
+        text-align: right;
+    }
+    
+    #banner #BackgroundImage {
+        background-image: url('assets/background.jpg');
+        border: none;
+        opacity: 1;
+        width: 728px;
+        height: 100%;
+        right: 0px;
+    }
+    
+    #banner #FrameOne {
+        border: none;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        right: 0px;
+    }
+    
+    #banner #FrameOne #printerBottom {
+        display: block;
+        border: none;
+        position: absolute;
+        background-image: url(assets/printer_bottom.png);
+        opacity: 1;
+        width: 252px;
+        height: 192px;
+        left: 258px;
+        top: -38px;
+        -ms-transform: scale(0.7);
+        /* IE 9 */
+        -webkit-transform: scale(0.7);
+        /* Safari */
+        transform: scale(0.7);
+    }
+    
+    #banner #FrameTwoImageMask {
+        overflow: hidden;
+        bottom: 0px;
+        height: 40px;
+        width: 100%;
+    }
+    
+    #banner #FrameTwoImageMask #FrameTwoImage {
+        background: url(assets/RIBBON.jpg) -0px 0px;
+        opacity: 1;
+        width: 78px;
+        height: 1021px;
+        top: -125px;
+        left: 311px;
+        -ms-transform: scale(0.8);
+        /* IE 9 */
+        -webkit-transform: scale(0.8);
+        /* Safari */
+        transform: scale(0.8);
+    }
+    
+    #banner #FrameOneImage {
+        display: block;
+        border: none;
+        position: absolute;
+        background: url(assets/ribbon3_master_1E.png) -0px 0px;
+        opacity: 1;
+        width: 280px;
+        height: 93px;
+        right: 15px;
+        bottom: 0px;
+        border: 0px solid #000;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        
+        
+        animation: play 1s steps(23) forwards;
+        -webkit-animation: play 1s steps(23) forwards;
+        -ms-animation: play 1s steps(23) forwards;
+        -moz-animation: play 1s steps(23) forwards;
+        
+
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -ms-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        
+        
+        -webkit-animation-duration: 3.5s;
+        animation-duration: 3.5s;
+        -ms-animation-duration: 3.5s;
+        -moz-animation-duration: 3.5s;
+        
+        
+        -moz-box-shadow: 15px 15px 15px #000;
+        -webkit-filter: drop-shadow(10px 10px 10px #000);
+        filter: drop-shadow(10px 10px 10px #000);
+        
+        
+        
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+        -ms-animation-delay: 3s;
+        -moz-animation-delay: 3s;
+        
+        
+        -webkit-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        -ms-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        
+        
+       z-index: 9998;
+    }
+    
+    @keyframes play {
+        from {
+            background-position: 0;
+        }
+        to {
+            background-position: -6440px;
+        }
+    }
+
+    @-webkit-keyframes play {
+        from {
+            background-position: 0;
+        }
+        to {
+            background-position: -6440px;
+        }
+    }
+    @-moz-keyframes play {
+        from {
+            background-position: 0;
+        }
+        to {
+            background-position: -6440px;
+        }
+    }
+        @-ms-keyframes play {
+        from {
+            background-position: 0;
+        }
+        to {
+            background-position: -6440px;
+        }
+    }
+
+
+
+    
+    #banner #FrameOne #printer {
+        display: block;
+        border: none;
+        position: absolute;
+        background-image: url(assets/printer.png);
+        opacity: 1;
+        width: 252px;
+        height: 192px;
+        left: 258px;
+        top: -38px;
+        -ms-transform: scale(0.7);
+        /* IE 9 */
+        -webkit-transform: scale(0.7);
+        /* Safari */
+        transform: scale(0.7);
+    }
+    
+    #banner #FrameOne #copyOne,
+    #banner #FrameOne #copyTwo {
+        line-height: 40px;
+        text-align: left;
+        color: #10218b;
+        position: absolute;
+        left: 60px;
+        top: 25px;
+        width: 140%;
+        opacity: 0;
+    }
+    
+    #banner #FrameOne #copyTwo,
+    #banner #FrameOne #copyThree {
+        line-height: 40px;
+        text-align: left;
+        color: #10218b;
+        position: absolute;
+        left: 60px;
+        top: 25px;
+        width: 140%;
+        opacity: 0;
+    }
+    
+    #banner #FrameOne #copyFour {
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #10218b;
+        position: absolute;
+        left: -230px;
+        top: 24px;
+        width: 100%;
+        opacity: 0;
+    }
+    
+    #banner #epsonLogo {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        z-index: 9999;
+        opacity: 1;
+    }
+    
+    #banner #cta {
+        font-weight: bold;
+        background-color: #10218b;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        padding-top: 11px;
+        height: 29px;
+        left: 306px;
+        top: 25px;
+        width: 134px;
+        opacity: 0;
+    }
+    
+    #banner #bgexit {
+        opacity: 1;
+        cursor: pointer;
+        z-index: 12101;
+        width: 100%;
+        height: 100%;
+    }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Epson_728_90</title>
+    <meta name="ad.size" content="width=728, height=90" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="greensock.js"></script>
+    <script type="text/javascript" src="animation.js"></script>
+</head>
+
+<body>
+    <div id="banner">
+
+
+        <div id="BackgroundImage"></div>
+        <div id="FrameOne">
+            <div id="printerBottom"></div>
+
+            <div id="FrameTwoImageMask">
+                <div id="FrameTwoImage"></div>
+            </div>
+            <div id="FrameOneImage"></div>
+
+            <div id="printer"></div>
+            <div id="copyOne" class="copy">No cartridges</div>
+            <div id="copyTwo" class="copy">No hassle</div>
+            <div id="copyThree" class="copy">No brainer</div>
+
+            <div id="copyFour">We've changed home<br>printing forever</div>
+
+        </div>
+
+
+        <img id="epsonLogo" src="assets/epson_exceed.png" alt="">
+
+        <div id="cta" class="copy">FIND OUT MORE</div>
+
+
+        <div id="bgexit"></div>
+    </div>
+
+    <script>
+        var clickTag = "https://www.epson.co.uk/";
+        var clickArea = document.getElementById("bgexit");
+        clickArea.addEventListener("click", clickBtn, false);
+        clickArea.addEventListener("mouseover", mouseoverBtn, false);
+        clickArea.addEventListener("mouseleave", mouseleaveBtn, false);
+
+        var cta = document.getElementById("cta");
+
+        function clickBtn() {
+            window.open(window.clickTag);
+        }
+
+        function mouseoverBtn() {
+            cta.style.backgroundColor = "#575755";
+        }
+
+        function mouseleaveBtn() {
+            cta.style.backgroundColor = "#10218b";
+        }
+    </script>
+
+</body>
+
+</html>
